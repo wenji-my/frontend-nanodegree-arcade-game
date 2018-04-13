@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Access-Control-Allow-Origin" content="*" />
+    <title>经典街机小游戏</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div id="top-bar">
+        <div class="menu">
+            <span id="score" class="score">分数：0</span>
+            <span id="title" class="title"></span>
+            <span id="life" class="life"></span>
+            <button id="btn-menu" class="btn-menu btn-toggle">
+                <p class="line"></p>
+                <p class="line"></p>
+                <p class="line"></p>
+            </button>
+            <ul id="menu-list" class="menu-list">
+                <li id="btn-instruction" class="btn-instruction btn-toggle">游戏说明</li>
+                <li id="btn-role" class="btn-role btn-toggle">选择角色</li>
+                <li id="btn-restart" class="btn-restart btn-toggle">重新开始</li>
+            </ul>
+            <ul id="role-list" class="role-list">
+                <li class="role-li btn-toggle">
+                    <img id="role-0" class="role-img" src="images/char-boy.png" alt="char-boy">
+                </li>
+                <li class="role-li btn-toggle">
+                    <img id="role-1" class="role-img" src="images/char-cat-girl.png" alt="char-cat-girl">
+                </li>
+                <li class="role-li btn-toggle">
+                    <img id="role-2" class="role-img" src="images/char-horn-girl.png" alt="char-horn-girl">
+                </li>
+                <li class="role-li btn-toggle">
+                    <img id="role-3" class="role-img" src="images/char-pink-girl.png" alt="char-pink-girl">
+                </li>
+                <li class="role-li btn-toggle">
+                    <img id="role-4" class="role-img" src="images/char-princess-girl.png" alt="char-princess-girl">
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div id="instruction-board" class="instruction-board">
+        <div class="instruction-content">
+            <h2>游戏规则</h2>
+            <p>玩家可以通过上下左右键移动角色，直到到达河边即可通关并进入下一关。但是在移动过程中需要避开甲虫和障碍物，如果碰撞了甲虫角色就会被重置到起始位置。</p>
+            <p>PS: 玩家每次过关都会获得一定积分</p>
+            <h2>道具功能</h2>
+            <p>石头：阻碍玩家的行进路线</p>
+            <p>蓝宝石：将所有敌人移到屏幕左侧之外</p>
+            <p>绿宝石：随机清除一块石头</p>
+            <p>五角星：获得大量积分</p>
+        </div>
+        <button id="btn-close-instruction" class="btn-close-instruction btn-toggle">OK</button>
+    </div>
+
+    <script src="js/resources.js"></script>
+    <script src="js/handler.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/engine.js"></script>
+
+</body>
+</html>
