@@ -262,10 +262,12 @@ var Engine = (function(global) {
 
     function runGame() {
         speed = 1;
+        player.canMove = true;
     }
 
     function pauseGame() {
         speed = 0;
+        player.canMove = false;
     }
 
     /* Go ahead and load all of the images we know we're going to need to
