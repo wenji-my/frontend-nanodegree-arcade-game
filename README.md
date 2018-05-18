@@ -1,6 +1,14 @@
-frontend-nanodegree-arcade-game
-===============================
+# 经典街机游戏克隆
 
-Students should use this [rubric](https://review.udacity.com/#!/projects/2696458597/rubric) for self-checking their submission. Make sure the functions you write are **object-oriented** - either class functions (like Player and Enemy) or class prototype functions such as Enemy.prototype.checkCollisions, and that the keyword 'this' is used appropriately within your class and class prototype functions to refer to the object the function is called upon. Also be sure that the **readme.md** file is updated with your instructions on both how to 1. Run and 2. Play your arcade game.
+这是使用JavaScript对象修饰模式实现的街机游戏"青蛙过河"，玩家可以通过上下左右键移动角色，直到到达河边即可通关。但是在移动过程中需要避开甲虫和障碍物，如果碰撞了甲虫角色就会被重置到起始位置。游戏中还设有多种不同效果的道具。
 
-For detailed instructions on how to get started, check out this [guide](https://docs.google.com/document/d/1v01aScPjSWCCWQLIpFqvg3-vXLH2e8_SZQKC8jNO0Dc/pub?embedded=true).
+## 部分效果截图
+![Image text](https://github.com/wenji-my/frontend-nanodegree-arcade-game/blob/master/screenshot/game.gif)
+
+## 使用
+
+```
+git clone https://github.com/wenji-my/mymap.git
+```
+
+然后在浏览器打开index.html即可
