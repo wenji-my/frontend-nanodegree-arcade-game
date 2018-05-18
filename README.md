@@ -8,7 +8,7 @@
 ## 使用
 
 ```
-git clone https://github.com/wenji-my/mymap.git
+git clone https://github.com/wenji-my/frontend-nanodegree-arcade-game.git
 ```
 
 然后在浏览器打开index.html即可
